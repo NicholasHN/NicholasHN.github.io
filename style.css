@@ -41,5 +41,22 @@ main { background: rgb(245, 238, 219);
 display: flex;
 }
 .sidebar {
-    margin-right:
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
 }
