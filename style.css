@@ -13,10 +13,12 @@ arial;
 /* navigation menu */
 nav {
     background:
-rgb(239, 80, 41);
+rgb(53, 177, 197);
         margin: 0 auto;
+        margin-bottom: 20px;
         display: flex;
         padding: 10px;
+        border-radius: 30px;
 }  
 h1 {
     display: flex;
