@@ -23,7 +23,7 @@ rgb(53, 177, 197);
 h1 {
     display: flex;
     align-items:center;
-    color: white;
+    color: rgb(36, 78, 71);
     flex: 1;
     margin: 0;
 }
@@ -36,7 +36,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(8, 7, 7);
 }
 /* main container area beneath menu */
 main { background: rgb(245, 238, 219);
@@ -61,4 +61,29 @@ display: flex;
 }
 h2, h3 {
     margin: 0px;
+}
+/*portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 25% 10%;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
