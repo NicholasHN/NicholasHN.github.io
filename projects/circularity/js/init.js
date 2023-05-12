@@ -55,6 +55,15 @@ physikz.updatePosition(circles[1]);
 physikz.updatePosition(circles[2]);
 physikz.updatePosition(circles[3]);
 physikz.updatePosition(circles[4]);
+physikz.updatePosition(circles[5]);
+physikz.updatePosition(circles[6]);
+
+for (var index = 0; index < circles.length; index++){
+    var eachCircle = circles[i];
+ physikz.updatePosition(eachCircle);  
+ game.checkCirclePosition(eachCircle);
+}
+console.log(physikz.updatePosition[index]);
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
@@ -63,7 +72,9 @@ physikz.updatePosition(circles[4]);
             game.checkCirclePosition(circles[2]);
             game.checkCirclePosition(circles[3]);
             game.checkCirclePosition(circles[4]);
-
+            
+                
+            
             // TODO 9 : Iterate over the array
 
   
