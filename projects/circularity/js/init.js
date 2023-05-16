@@ -50,20 +50,12 @@ for (var i = 0; i <= 100; i++) {
         function update() {
             // TODO 4 : Update the circle's position //
 
-physikz.updatePosition(circles[0]);
-physikz.updatePosition(circles[1]);
-physikz.updatePosition(circles[2]);
-physikz.updatePosition(circles[3]);
-physikz.updatePosition(circles[4]);
-physikz.updatePosition(circles[5]);
-physikz.updatePosition(circles[6]);
 
-for (var index = 0; index < circles.length; index++){
-    var eachCircle = circles[i];
- physikz.updatePosition(eachCircle);  
- game.checkCirclePosition(eachCircle);
-}
-console.log(physikz.updatePosition[index]);
+            physikz.updatePosition(circles[0]);
+            physikz.updatePosition(circles[1]);
+            physikz.updatePosition(circles[2]);
+            physikz.updatePosition(circles[3]);
+            physikz.updatePosition(circles[4]);
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
@@ -76,7 +68,12 @@ console.log(physikz.updatePosition[index]);
                 
             
             // TODO 9 : Iterate over the array
-
+            for (var index = 0; index < circles.length; index++){
+                var eachCircle = circles[index];
+             physikz.updatePosition(eachCircle);  
+             game.checkCirclePosition(eachCircle);
+            }
+            console.log(physikz.updatePosition[index]);
   
             
         }
